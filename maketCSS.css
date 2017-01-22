@@ -1,0 +1,162 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.site {
+ width: 100%;
+ height: 100%;
+ font-family: Arial;
+}
+
+.container {
+  width: 800px;
+  background-color: rgb(68, 81, 98);
+  margin-left: 10%;
+}
+
+.header {
+  width: 100%;
+  height: 202px;
+}
+
+.h_left {
+  float: left;
+  height: 134px;
+  color: white;
+  margin-left: 32px;
+  margin-top: 32px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.h_left ul {
+  margin-left: 25px;
+  margin-top: 10px;
+ }
+
+.h_left ul li{
+  list-style-image: url(img/check.png);
+ }
+
+
+.h_right {
+  float: right;
+  width: 295px;
+  height: 134px;
+  background-color: white;
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+
+.about {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 218px;
+  color: rgb(68, 81, 98);
+}
+
+.a_left {
+  float:left;
+  height: 154px;
+  width: 415px;
+  font-size: 11px;
+  margin-left: 32px;
+  margin-top: 32px;
+  line-height: 15px;
+}
+
+.a_left p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.a_right {
+  float:right;
+  width: 268px;
+  height: 154px;
+  background-color: rgb(68, 81, 98);
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+.contacts {
+  width: 100%;
+  height: 290px;
+}
+
+.contacts h3 {
+   text-align: center;
+   color: white;
+   margin-top: 30px;
+   font-family: Arial;
+}
+
+.c_left {
+  float: left;
+  margin-left: 154px;
+  width: 312px;
+ }
+
+.c_left input {
+  display: block;
+  line-height: 16px;
+  border-radius: 5px;
+  }
+
+.c_left textarea {
+  border-radius: 5px;
+  }
+
+ .submit {
+     background-color: #ffffff;
+     width: 90px;
+     height: 27px;
+     font-family: Arial;
+     color: #445162;
+     font-size: 12px;
+     font-weight: 800;
+     line-height: 18px;
+     text-align: center;
+     display: block;
+     margin: 10px auto;
+ }
+
+ .submit:hover {
+  background-color: grey;
+ }
+
+.c_right {
+  float: right;
+  margin-top: 23px;
+  margin-right: 120px;
+  font-size: 11px;
+  color: white;
+}
+
+.c_right p {
+  height: 16px;
+}
+
+.c_right img {
+  float: left;
+  display: block;
+  margin-top: -3px;
+  margin-right: 5px; 
+}
+
+.c_right img:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: 600;
+  color: #445162;
+  line-height: 30px;
+ }
+
